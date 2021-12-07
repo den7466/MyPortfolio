@@ -135,3 +135,50 @@ ul {
     background-color: white;
     border: 1px solid #66CDAA;
 }
+
+.cases-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0px 10px 0px 10px;
+}
+
+.cases-item {
+    width: 380px;
+    background: #66CDAA;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.cases-item h2 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.cases-item img {
+    width: 350px;
+}
+
+.cases-item-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.cases-item a {
+    color: #66CDAA;
+    background-color: white;
+    border: 1px solid #66CDAA;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    transition: .2s;
+}
+
+.cases-item a:hover {
+    color: white;
+    background-color: #66CDAA;
+    border: 1px solid #FFFFFF;
+}
